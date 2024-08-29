@@ -2,9 +2,12 @@ import React from "react";
 
 const TodoItem = ({ todo, onDelete }) => {
     return (
-    <li>
+    <li className="Todo-Item">
+        <span>
         <input type="checkbox" />
-        <p>Eat</p>
+        <span className="todo-item-text">Eat</span>
+        </span>
+      
         <p>...</p>
     </li>
     
