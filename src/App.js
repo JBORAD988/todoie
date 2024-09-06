@@ -10,7 +10,9 @@ const App = () => {
   return (
     <div className='Todo-Container'>
       <Header />
-      <TodoItem />
+        <TodoItem text="Madico" />
+        <TodoItem text="code" />
+        <TodoItem text="bike service" />
 <AddTodoButton />
     </div>
 
