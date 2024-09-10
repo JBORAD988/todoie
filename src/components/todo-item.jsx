@@ -4,7 +4,7 @@ const TodoItem = (todo) => {
     return (
     <li className="Todo-Item">
         <span>
-        <input type="checkbox" />
+        {todo.completed ? <></> : <input type="checkbox"/>}
         <span className="todo-item-text">{todo.text}</span>
         </span>
       
